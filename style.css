@@ -10,6 +10,12 @@ header {
   color: white;
   padding: 20px;
   text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 section {
@@ -18,6 +24,15 @@ section {
 
 h2 {
   color: #4a90e2;
+}
+
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
